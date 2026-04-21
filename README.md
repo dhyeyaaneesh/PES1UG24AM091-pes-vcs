@@ -374,9 +374,11 @@ The test program verifies:
 - Deduplication (same content → same hash → stored once)
 - Integrity checking (detects corrupted objects)
 
-**📸 Screenshot 1A:** Output of `./test_objects` showing all tests passing.
+<img width="974" height="263" alt="Screenshot 2026-04-21 125136" src="https://github.com/user-attachments/assets/2b5b4d3d-584b-4a40-a6b7-ee1ae19e6b2e" />
 
-**📸 Screenshot 1B:** `find .pes/objects -type f` showing the sharded directory structure.
+
+<img width="975" height="134" alt="Screenshot 2026-04-21 125159" src="https://github.com/user-attachments/assets/ec2ff97f-5148-411c-99de-7164f9a2c1e2" />
+
 
 ---
 
@@ -406,9 +408,9 @@ The test program verifies:
 - Serialize → parse roundtrip preserves entries, modes, and hashes
 - Deterministic serialization (same entries in any order → identical output)
 
-**📸 Screenshot 2A:** Output of `./test_tree` showing all tests passing.
 
-**📸 Screenshot 2B:** Pick a tree object from `find .pes/objects -type f` and run `xxd .pes/objects/XX/YYY... | head -20` to show the raw binary format.
+<img width="966" height="232" alt="Screenshot 2026-04-21 130815" src="https://github.com/user-attachments/assets/20d14ccf-1060-4f61-b496-7fe2f9d9d82e" />
+
 
 ---
 
